@@ -29,7 +29,7 @@ export function HeroSection() {
     <section className="relative min-h-screen w-full flex items-center justify-center bg-background overflow-hidden">
       {/* Gradient Background */}
       <div className="absolute inset-0 bg-gradient-to-br from-indigo-950 via-background to-background opacity-50" />
-      
+
       {/* Grid Pattern */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute inset-0" style={{
@@ -45,7 +45,7 @@ export function HeroSection() {
         animate="visible"
       >
         {/* Left Content */}
-        
+
         <div className="space-y-8">
 
           <motion.div variants={itemVariants} className="space-y-4">
@@ -62,12 +62,12 @@ export function HeroSection() {
           </motion.p>
 
           <motion.div variants={itemVariants} className="flex flex-wrap gap-3">
-            <button className="px-8 py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-lg transition-colors duration-200">
+            <a href="#projects" className="px-8 py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-lg transition-colors duration-200 rounded-lg">
               View My Work
-            </button>
-            <button className="px-8 py-3 border border-indigo-500 text-indigo-400 hover:bg-indigo-950/30 font-semibold rounded-lg transition-colors duration-200">
+            </a>
+            <a href="#contact" className="px-8 py-3 border border-indigo-500 text-indigo-400 hover:bg-indigo-950/30 font-semibold rounded-lg transition-colors duration-200 rounded-lg">
               Get In Touch
-            </button>
+            </a>
           </motion.div>
 
         </div>

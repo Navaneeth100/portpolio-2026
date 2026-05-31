@@ -27,7 +27,7 @@ export function ExperienceSection() {
   };
 
   return (
-    <section ref={ref} className="py-24 px-6 bg-gradient-to-b from-background to-slate-900/30">
+    <section ref={ref} className="py-12 md:py-24 px-6 bg-gradient-to-b from-background to-slate-900/30">
       <div className="container mx-auto max-w-4xl">
         <motion.div
           initial="hidden"

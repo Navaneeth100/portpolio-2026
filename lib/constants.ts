@@ -13,7 +13,7 @@ export const PORTFOLIO_DATA = {
       company: "Cignes Business Solutions",
       period: "2024 Feb - 2026 Feb",
       description: "Worked as a Full Stack Developer on transportation and logistics management platforms. Developed and maintained responsive dashboards, real-time vehicle tracking systems, and business workflow modules using React.js, Django, REST APIs, WebSockets, and Google Maps integration. Managed staging and production deployments while supporting application performance and operational requirements.",
-      skills: ["React.js", "Javascript", "Node.js", "Django", "Django REST Framework", "WebSocket", "Google Maps API", "PostgreSQL", "Bootstrap", "REST API"],
+      skills: ["React.js", "JavaScript", "Node.js", "Django", "Django REST Framework", "WebSocket", "Google Maps API", "PosgreSQL", "Bootstrap", "REST API"],
     },
     {
       id: 2,
@@ -21,7 +21,7 @@ export const PORTFOLIO_DATA = {
       company: "Luminar Technolab",
       period: "June 2023 - Feb 2024",
       description: "Completed a MERN Stack Development Internship focused on building responsive web applications and learning modern development practices. Gained hands-on experience in React.js, Node.js, MongoDB, REST APIs, frontend development, and database integration while working on real-world projects and collaborative development tasks.",
-      skills: ["React", "Javascript", "Node.js", "Express", "MongoDB", "HTML", "CSS", "Bootstrap", "REST API"]
+      skills: ["React.js", "JavaScript", "Node.js", "Express", "MongoDB", "HTML", "CSS", "Bootstrap", "REST API"]
     },
   ],
 
@@ -30,9 +30,9 @@ export const PORTFOLIO_DATA = {
       id: 1,
       title: "Transposys - Transportation & Logistics Management System",
       description: "Developed a logistics and transportation management platform with real-time vehicle tracking, operational dashboards, route monitoring, and business workflow management.",
-      technologies: ["React.js", "Javascript", "Node.js", "Django", "Django REST Framework", "WebSocket", "Google Maps API", "PostgreSQL", "Bootstrap", "REST API"],
+      technologies: ["React.js", "JavaScript", "Node.js", "Django", "Django REST Framework", "WebSocket", "Google Maps API", "PosgreSQL", "Bootstrap", "REST API"],
       link: "#",
-      image: ""
+      image: "/images/transposys.jpg"
     },
     {
       id: 2,
@@ -40,7 +40,7 @@ export const PORTFOLIO_DATA = {
       description: "Built a hotel management dashboard for managing hotel listings, bookings, analytics, and operational workflows through an intuitive administrative interface.",
       technologies: ["React.js", "JavaScript", "Node.js", "Material UI", "Bootstrap", "REST API", "Axios", "React Router", "Chart.js"],
       link: "#",
-      image: ""
+      image: "/images/stay4hotels.png"
     },
     {
       id: 3,
@@ -48,7 +48,7 @@ export const PORTFOLIO_DATA = {
       description: "Developed a vendor bidding and management system that streamlines quotations, bidding workflows, and project coordination between clients and vendors.",
       technologies: ["React.js", "JavaScript", "Node.js", "Material UI", "Bootstrap", "REST API", "Axios", "React Router"],
       link: "#",
-      image: ""
+      image: "/images/bidding.png"
     },
     {
       id: 4,
@@ -56,14 +56,14 @@ export const PORTFOLIO_DATA = {
       description: "Created a responsive expense management application for tracking income, expenses, reports, and financial insights through interactive dashboards.",
       technologies: ["React.js", "JavaScript", "Node.js", "PosgreSQL", "Bootstrap", "REST API", "Axios", "Chart.js"],
       link: "#",
-      image: ""
+      image: "/images/expensetracker.jpeg"
     }
   ],
 
   skills: [
-    { category: "Frontend", items: ["React", "Next.js", "Javascript", "Redux", "HTML", "CSS", "Bootstrap", "Tailwind CSS", "Framer Motion", "Three.js"] },
-    { category: "Backend", items: ["Node.js", "Express", "Django REST Framework", "PostgreSQL", "MongoDB", "REST APIs", "JWT Authentication"] },
-    { category: "Tools & Platforms", items: ["Git", "GitHub", "GitLab", "Postman", "Render", "Vercel", "Netilfy"] },
+    { category: "Frontend", items: ["React.js", "Next.js", "JavaScript", "Redux", "HTML", "CSS", "Bootstrap", "Tailwind CSS", "Framer Motion", "Three.js"] },
+    { category: "Backend", items: ["Node.js", "Express", "Django REST Framework", "PosgreSQL", "MongoDB", "REST APIs", "JWT Authentication"] },
+    { category: "Tools & Platforms", items: ["Git", "GitHub", "GitLab", "Postman", "Render", "Vercel", "Netlify"] },
     { category: "Design", items: ["UI/UX Design", "Figma", "Responsive Design", "Animation", "Web Performance"] },
     { category: "Database", items: ["MongoDB", "MySQL"] },
   ],

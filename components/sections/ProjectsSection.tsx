@@ -27,7 +27,7 @@ export function ProjectsSection() {
   };
 
   return (
-    <section ref={ref} className="py-24 px-6 bg-background">
+    <section ref={ref} className="py-12 md:py-24 px-6 bg-background">
       <div className="container mx-auto max-w-6xl">
         <motion.div
           initial="hidden"
@@ -49,9 +49,11 @@ export function ProjectsSection() {
               >
                 {/* Project Image/Icon */}
                 <div className="h-48 bg-gradient-to-br from-indigo-600/20 to-purple-600/20 flex items-center justify-center overflow-hidden relative">
-                  <div className="text-6xl group-hover:scale-110 transition-transform duration-300">
-                    {project.image}
-                  </div>
+                  <img
+                    src={project.image}
+                    alt={project.title}
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
                   <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 </div>
 
@@ -71,12 +73,12 @@ export function ProjectsSection() {
                     ))}
                   </div>
 
-                  <a
+                  {/* <a
                     href={project.link}
                     className="inline-flex items-center gap-2 text-indigo-400 hover:text-indigo-300 font-medium text-sm pt-2 transition-colors"
                   >
                     View Project →
-                  </a>
+                  </a> */}
                 </div>
               </motion.div>
             ))}

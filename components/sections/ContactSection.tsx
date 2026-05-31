@@ -43,7 +43,7 @@ export function ContactSection() {
   };
 
   return (
-    <section ref={ref} className="py-24 px-6 bg-background">
+    <section ref={ref} className="py-12 md:py-24 px-6 bg-background">
       <div className="container mx-auto max-w-4xl">
         <motion.div
           initial="hidden"

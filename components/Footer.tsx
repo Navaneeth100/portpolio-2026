@@ -33,9 +33,9 @@ export function Footer() {
           </a>
         </div>
 
-        <p className="text-gray-500 text-xs">
+        {/* <p className="text-gray-500 text-xs">
           Designed & Built with <span className="text-indigo-400">Next.js</span> & <span className="text-purple-400">React Three Fiber</span>
-        </p>
+        </p> */}
       </div>
     </motion.footer>
   );
